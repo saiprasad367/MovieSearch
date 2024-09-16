@@ -1,0 +1,83 @@
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(53, 53, 53);
+        }
+        .header {
+            display: flex;
+            background-color: black;
+            width: 95%;
+            height: 70px;
+            box-shadow: 5px 0px 15px rgba(0,0,1,0.4);
+            border-radius: 15px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .header h1 {
+            color: rgba(255, 255, 0, 0.8);
+            font-size: 34px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 120px;
+        }
+        .header img {
+            width: 65px;
+            height: 50px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .header input {
+            margin-left: auto;
+            width: 320px;
+            height: 45px;
+            background-color: black;
+            border: white 1px solid;
+            border-radius: 20px;
+            color: white;
+            padding-left: 10px;
+        }
+        .header button {
+            margin-left: 10px;
+            width: 140px;
+            height: 45px;
+            background-color: chocolate;
+            border-radius: 15px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .header input:focus {
+            border: rgba(0, 255, 0, 0.4) 1px solid;
+            background-color: black;
+            color: white;
+        }
+        .result {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: black;
+            box-shadow: 0px 0px 20px rgba(255,255,0,0.5);
+            width: 80%;
+            margin: 20px auto;
+            border-radius: 20px;
+            padding: 20px;
+            color: white;
+        }
+        #imgmovie img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        #res {
+            flex: 1;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #res p{
+            font-size: 20px;
+            padding: 8px;
+
+        }
